@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(FlaxToolsPath)\Flax.CSharp.targets" />
+  <PropertyGroup>
+    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectName>NeonVeil</ProjectName>
+    <FlaxVersion>1.13.0</FlaxVersion>
+    <OutputType>Library</OutputType>
+    <TargetPlatform>Windows</TargetPlatform>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="CompileDefinitions.xml" />
+  </ItemGroup>
+</Project>
